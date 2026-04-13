@@ -326,11 +326,9 @@ export default function App() {
   useEffect(() => {
     const initGame = async () => {
       try {
-        console.log("Fetching daily word...");
         const res = await fetch('/api/daily-word');
         if (!res.ok) throw new Error(`API error: ${res.status}`);
         const data = await res.json();
-        console.log("Daily word data received:", data);
         
         if (!data.word) throw new Error("No word in data");
 
