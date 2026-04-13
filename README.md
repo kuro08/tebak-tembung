@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Tebak Tembung
+Learn Javanese vocabulary daily with puzzle game
 
-# Run and deploy your AI Studio app
+Tebak Tembung is my personal concept inspired by [Open Source Version Wordle](https://github.com/cwackerfuss/react-wordle) dan [Temblung](https://tlembung.vercel.app/) with several added features such as varied word lengths (4-8 letters), hint added for easier play and a unique look.
 
-This contains everything you need to run your app locally.
+I created this mini-game app for people who want and are interested in learning the Javanese language.
 
-View your app in AI Studio: https://ai.studio/apps/d0b98c17-0faf-47ec-b296-4f0be0617824
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+If you enjoy this game and would like to support my work, please consider treating me via [Saweria](https://saweria.co/akkun08)
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# How to play
+Guess the Javanese word (The number of letters varies from 4 to 8 letters) with 6 attempts. Hit the enter button to submit. After each guess, the colour of the tiles will change to show how close your guess was to the word. The word of the day is updated daily following Java Time (UTC+7).
+
+
+# About the word list
+The list of words in this game are words that are commonly used in everyday life and sometimes there are several words that are close to Indonesian language.
+
+A new word will be available each day!
