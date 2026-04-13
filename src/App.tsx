@@ -94,7 +94,7 @@ const TRANSLATIONS = {
     supportButton: 'Dukung di Saweria ♥️',
     close: 'Tutup',
     metaTitle: 'Tebak Tembung - Game Tebak Kata Bahasa Jawa Harian',
-    metaDesc: 'Uji kemampuan bahasa Jawa Anda dengan Tebak Tembung. Game tebak kata harian yang seru untuk belajar kosakata bahasa Jawa dengan cara yang menyenangkan.',
+    metaDesc: 'Uji kemampuan bahasa Jawa Anda dengan Tebak Tembung. Game tebak kata harian ala wordle yang seru untuk belajar kosakata bahasa Jawa dengan cara yang menyenangkan.',
   },
   jv: {
     title: 'TEBAK TEMBUNG',
@@ -175,8 +175,8 @@ const TRANSLATIONS = {
     aboutSupport: 'If you enjoy this game and would like to support my work, please consider treating me via Saweria♥️.',
     supportButton: 'Support on Saweria ♥️',
     close: 'Close',
-    metaTitle: 'Tebak Tembung - Daily Javanese Word Guessing Game',
-    metaDesc: 'Master Javanese vocabulary with Tebak Tembung. A fun daily word game designed for anyone wanting to learn Javanese language in an engaging way.',
+    metaTitle: 'Tebak Tembung - Daily Javanese Wordle Guessing Game',
+    metaDesc: 'Master Javanese vocabulary with Tebak Tembung. A fun daily word game like a wordle designed for anyone wanting to learn Javanese language in an engaging way.',
   }
 };
 
