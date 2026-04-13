@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 
 // Google Analytics Initialization
 const GA_ID = import.meta.env.GOOGLE_ANALYTICS;
+const ADSENSE_ID = import.meta.env.VITE_ADSENSE_CLIENT;
 
 const initGA = () => {
   if (!GA_ID || typeof window === 'undefined') return;
@@ -20,6 +21,16 @@ const initGA = () => {
     gtag('config', '${GA_ID}');
   `;
   document.head.appendChild(script2);
+};
+
+const initAdSense = () => {
+  if (!ADSENSE_ID || typeof window === 'undefined') return;
+
+  const script = document.createElement('script');
+  script.async = true;
+  script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`;
+  script.crossOrigin = "anonymous";
+  document.head.appendChild(script);
 };
 import { 
   Trophy, 
